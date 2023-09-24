@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.dashboard-sidebar {
+    background-color: #444;
+    color: #fff;
+    width: 220px;
+    padding: 20px;
+    float: left;
+}
+
+.dashboard-sidebar ul {
+    list-style: none;
+}
+
+.dashboard-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.dashboard-sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.dashboard-content {
+    padding: 20px;
+    margin-left: 240px;
+}
+
+.content-header {
+    margin-bottom: 20px;
+}

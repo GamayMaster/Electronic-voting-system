@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      .alert {
+        width: 500px;
+        margin: 250px auto;
+        background-color: #fff;
+        padding: 20px;
+        border: 3px solid #333;
+        z-index: 1000px;
+        /* border-radius: 4px; */
+      }
+
+      .alert h2 {
+        margin-bottom: 20px;
+      }
+
+      .alert p {
+        margin-bottom: 20px;
+      }
+
+      .alert button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      @media (max-width: 768px) {
+        .box {
+          width: 45%;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .box {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert">
+      <h2>Thank You!</h2>
+      <p>Dear voter, your vote has been recorded successfully.</p>
+      <button onclick="window.body.reload();">
+        Back to Home
+      </button>
+    </div>
+
+    <div class="con">
+      <input type="text"><br>
+      <input type="text"><br>
+    </div>
+  </body>
+</html>
