@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: darkgray;
+        }
+
+        .navbar {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #fff; */
+            overflow: hidden;
+        }
+      
+        .navbar .logo {
+            font-size: 30px;
+            /* padding: 10px; */
+            color: #333;
+            line-height: 30px;
+        }
+      
+        .navbar ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+      
+        .navbar ul li a {
+            color: #333;
+            font-size: 20px;
+            text-align: center;
+            padding: 12px 18px;
+            text-decoration: none;
+            float: right;
+            margin: 0px;
+        }
+      
+        .navbar a:hover {
+            background-color: #333;
+            font-size: 25px;
+            color: #fff;
+            margin: 0;
+        }
+
+        .navbar a:focus {
+            background-color: #333;
+            font-size: 25px;
+            color: #fff;
+        }
+      
+        .navbar a.active {
+            background-color: #333;
+            font-size: 25px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- <h2 class="logo">Hotel</h2> -->
+        <ul>
+            <li><a href="#" class="action">Home</a></li>
+            <li><a href="#">Candidates</a></li>
+            <li><a href="#">Add Candidate</a></li>
+            <li><a href="#">Del Candidate</a></li>
+            <li><a href="#">Voters</a></li>
+            <li><a href="#">Add Voter</a></li>
+            <li><a href="#">Del Voter</a></li>
+            <li><a href="#">Result</a></li>
+            <li><a href="#">Voting</a></li>
+            <li><a href="#">logout</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
